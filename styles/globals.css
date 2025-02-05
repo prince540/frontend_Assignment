@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background: #222;
+    color: #fff;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+  }
+  
+  .dashboard-main {
+    flex: 1;
+    padding: 20px;
+  }
+  .navbar {
+    background: #eee;
+    padding: 10px;
+  }
+  
+  .project-card {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  
